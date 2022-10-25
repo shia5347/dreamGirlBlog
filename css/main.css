@@ -1,0 +1,132 @@
+body {
+	
+	background-color: #0C090A /*Background color*/
+
+}
+
+
+.headerSection {
+	padding-right: 4em;
+	padding-left: 70px;
+
+
+	color: white;
+	font-family: "Verdana", sans-serif;
+}
+
+.searchBar {
+	display: inline-block;
+	display: flex;
+	float: right;
+	padding-right:5%;
+	padding-top:8.5em;
+}
+
+h1 {
+	color: lime;
+}
+
+button {
+	background-color: #34282C;
+	padding: 5px 22px;
+	margin-left:20px;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	border: none;
+	color: white;
+}
+
+button:hover {
+	background-color: #454545;
+}
+
+p {
+	color: white;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 1.0em;
+	padding-bottom: 0px;	
+	padding-top: 0px;
+}
+
+#Menu {
+	display: inline-block;
+	padding-right: 1em;
+	padding-top: none;
+}
+
+
+img {
+
+	width: 100%;
+	height: 100%;
+	text-align: center;
+
+	image-rendering: auto; image-rendering: crisp-edges;
+	image-rendering: pixelated;
+
+	image-rendering: -webkit-optimize-contrast;
+
+
+}
+
+.postImage {
+	max-width: 720px;
+
+}
+
+.posts {
+	
+	text-align: center;
+	padding-top: 1em;
+
+}
+
+.flexContainer {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+	font-family: "Verdana", sans-serif;
+	text-align: center;
+
+}
+
+#PostTitle {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-position: under;
+	padding-top: 15px;
+	color: lightblue;
+	font-size: 1.5em;
+}
+
+#PostTitle:hover {
+	color: white;
+	cursor: pointer; 
+}
+
+#Author {
+	
+	text-decoration: underline;
+	text-underline-position: under;
+	color: lightblue;
+
+}
+
+h2 {
+
+	transition-duration: 0.4s;
+}
+
+h2:hover {
+	color: lightblue;
+	cursor: pointer;
+}
+
+
+.headerImage {
+
+	height: auto;
+	width: 484px;
+
+}

@@ -1,0 +1,44 @@
+#blogPostTitle {
+
+	color: lightBlue; 
+	padding-top: 20px;
+
+}
+
+
+.pBlog {
+	
+	padding-top: 20px;
+	padding-top: 20px;
+	max-width: 70%;
+	line-height: 20pt;
+
+}
+
+img {
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	max-width: 30%;
+}
+
+.captionImage {
+	
+	display: block;
+	color: white;
+	padding-bottom: 20px;
+
+}
+
+#subHeading {
+
+	font-size: 2em;
+	color: white;
+	cursor: none;
+}
+
+
+a {
+	color: purple; 
+}
