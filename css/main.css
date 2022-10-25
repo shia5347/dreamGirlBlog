@@ -73,7 +73,9 @@ img {
 	image-rendering: pixelated;
 
 	image-rendering: -webkit-optimize-contrast;
-
+	
+	transform: translateZ(0);
+	-webkit-transform: translateZ(0);
 
 }
 
@@ -133,9 +135,12 @@ h2:hover {
 
 
 .headerImage {
+	
+	padding-top: 30px;
+	padding-left: 30px;
 
 	height: auto;
-	width: 484px;
+	max-width: 20%;
 
 }
 
